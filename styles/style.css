@@ -1,9 +1,49 @@
+:root {
+  --primary-color: #ff7b9c;
+  --heading-font-family: "Libre Baskerville", serif;
+  --default-font-family: "Quicksand", sans-serif;
+}
+
 h1 {
   color: white;
-  font-family: "Libre Baskerville", serif;
+  font-family: var(--heading-font-family);
   font-weight: bold;
+  font-size: 86px;
+}
+h2 {
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  color: white;
 }
 p {
-  font-family: "Quicksand", sans-serif;
+  font-family: var(--default-font-family);
   font-weight: normal;
+  color: white;
+}
+.first-page {
+  text-align: center;
+  background: var(--primary-color);
+  padding: 160px 20px;
+}
+.first-page p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+.first-page h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
+}
+.btn-branding {
+  background: #1ccad8;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+  line-height: 27px;
+  padding: 12px 16px;
+}
+a {
+  text-decoration: none;
 }
