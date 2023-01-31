@@ -65,6 +65,9 @@ a {
 .project-description {
   padding: 120px 60px;
 }
+/* .about-paragraph {
+  text-align: center;
+} */
 @media (max-width: 960px) {
   .project-description {
     padding: 0;
