@@ -21,6 +21,15 @@ p {
   font-weight: normal;
   color: #435c5d;
 }
+
+.about-title {
+  color: var(--primary-color);
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 86px;
+  padding-top: 65px;
+}
+
 .hero {
   text-align: center;
   background: var(--primary-color);
