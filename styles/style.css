@@ -11,6 +11,10 @@ h2 {
   color: var(--primary-color);
 }
 
+h4 {
+  font-size: 38px;
+}
+
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
@@ -23,6 +27,43 @@ img {
 
 a {
   text-decoration: none;
+}
+
+footer {
+  margin: 30px 0;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: #1699a2;
+  background: var(--primary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  background: #f8a3b8;
+}
+
+footer .email-link {
+  text-align: center;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+footer .contact-box {
+  background: #f4becc;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+.email-link {
+  font-size: 20px;
 }
 
 .hero {
@@ -75,8 +116,6 @@ a {
 .project-description {
   padding: 120px 60px;
 }
-
-/* Content Styles */
 
 .content-container h1 {
   color: var(--primary-color);
@@ -134,4 +173,7 @@ a {
   h2 {
     font-size: 44px;
   }
+}
+h4 {
+  font-size: 26px;
 }
