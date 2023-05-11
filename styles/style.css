@@ -157,6 +157,10 @@ footer .contact-box p {
     padding: 80px 10px;
   }
 
+  .content-container {
+    padding: 60px 20px;
+  }
+
   .content-container h1 {
     font-size: 50px;
   }
