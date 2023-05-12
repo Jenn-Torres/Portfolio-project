@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #ff7b9c;
+  --primary-color: #77c2e4e2;
   --heading-font-family: "Libre Baskerville", serif;
   --default-font-family: "Quicksand", sans-serif;
 }
@@ -34,7 +34,7 @@ footer {
 }
 footer .social-links a {
   margin: 0 20px;
-  color: #1699a2;
+  color: white;
   background: var(--primary-color);
   padding: 10px 14px;
   border-radius: 50%;
@@ -43,7 +43,7 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  background: #f8a3b8;
+  background: #8f8deb;
 }
 
 footer .email-link {
@@ -53,7 +53,7 @@ footer .email-link {
 }
 
 footer .contact-box {
-  background: #f4becc;
+  background: var(--primary-color);
   padding: 30px;
   border-radius: 10px;
 }
@@ -68,7 +68,8 @@ footer .contact-box p {
 
 .hero {
   text-align: center;
-  background: var(--primary-color);
+  background-image: url("https://www.joshmorony.com/static/cfd5ec6beec137bcd768a08c25f8edcd/a6312/gradient-shallow-ocean.png");
+  background-repeat: no-repeat;
   padding: 160px 20px;
 }
 
@@ -92,7 +93,7 @@ footer .contact-box p {
   font-size: 24px;
 }
 .btn-branding {
-  background: #1ccad8;
+  background: #0e636a;
   border-radius: 6px;
   color: white;
   font-size: 20px;
