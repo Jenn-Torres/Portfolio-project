@@ -157,6 +157,9 @@ footer .contact-box p {
   .hero {
     padding: 80px 10px;
   }
+  .hero h1 {
+    font-size: 65px;
+  }
 
   .content-container {
     padding: 60px 20px;
